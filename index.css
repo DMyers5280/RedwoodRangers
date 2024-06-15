@@ -1,0 +1,16 @@
+.card__image {
+  width: 600px;
+  height: 430px;
+  box-sizing: border-box;
+  border-radius: 10px 10px;
+}
+
+.card__description {
+  width: 600px;
+}
+
+.cards__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
