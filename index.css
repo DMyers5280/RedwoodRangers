@@ -14,3 +14,36 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+.header {
+  width: 100vw;
+  height: 500px;
+  background: linear-gradient(
+    rgb(62, 163, 37),
+    rgb(150, 75, 0),
+    rgb(185, 153, 123)
+  );
+  background-repeat: no-repeat;
+}
+
+.header__content {
+  display: flex;
+  justify-content: center;
+}
+
+.header__image {
+  position: absolute;
+  height: 500px;
+  width: 100vw;
+  z-index: 0;
+}
+
+.header__title {
+  position: absolute;
+  z-index: 1;
+  margin-top: 300px;
+  border-radius: 2px;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0, 1);
+  font-size: 100px;
+  color: white;
+}
